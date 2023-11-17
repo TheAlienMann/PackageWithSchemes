@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "B8B2C3BA-FD71-446F-B7B3-6C8F9B57213C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:",
+      "identifier" : "PackageWithSchemes",
+      "name" : "PackageWithSchemes"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "PackageWithSchemesEndToEndTests",
+        "name" : "PackageWithSchemesEndToEndTests"
+      }
+    }
+  ],
+  "version" : 1
+}
