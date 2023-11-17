@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "A57AE776-8DD1-46B3-9019-2E10A616ADAC",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:",
+      "identifier" : "PackageWithSchemes",
+      "name" : "PackageWithSchemes"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "PackageWithSchemesTests",
+        "name" : "PackageWithSchemesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
