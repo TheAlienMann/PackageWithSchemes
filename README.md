@@ -4,7 +4,7 @@ I believe it was in xcode 11 that Apple decided to remove a command that it was 
 
 #### The Test Plan part
 
-Since xcode 14.3 (If I recall correctly), Apple decoded to move some of the configuration that we used to set in xcode, to a separate place/file, called `xctestplan`. You can create one, just like how you'd create a new swift file. But I mostly like to create them when I create a new scheme, in the scheme editor (CMD + Option + U), you can "add an exsiting test plan..." or "create a new test plan.." and assign it to your scheme. After creating them or editing them (the auto generated ones) make sure to do the following:
+Since xcode 14.3 (If I recall correctly), Apple decided to move some of the configuration that we used to set in xcode, to a separate place/file, called `xctestplan`. You can create one, just like how you'd create a new swift file. But I mostly like to create them when I create a new scheme, in the scheme editor (CMD + Option + U), you can "add an exsiting test plan..." or "create a new test plan.." and assign it to your scheme. After creating them or editing them (the auto generated ones) make sure to do the following:
 * unchecked the "Execute in Parallel (if possible)" in the options of the test target that you'd like to be part of your test plan.
 <p>
 <img src="Images/1.png" >
