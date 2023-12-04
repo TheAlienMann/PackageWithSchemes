@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "95EA30A3-6950-44BB-8D8A-9DAC67044CB7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:",
+      "identifier" : "PackageWithSchemes",
+      "name" : "PackageWithSchemes"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "PackageWithSchemesEndToEndTests",
+        "name" : "PackageWithSchemesEndToEndTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "PackageWithSchemesTests",
+        "name" : "PackageWithSchemesTests"
+      }
+    }
+  ],
+  "version" : 1
+}

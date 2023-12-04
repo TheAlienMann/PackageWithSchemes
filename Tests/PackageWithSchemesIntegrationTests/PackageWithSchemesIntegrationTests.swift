@@ -1,0 +1,5 @@
+//
+//  PackageWithSchemesIntegrationTests.swift
+//
+
+import Foundation

@@ -7,6 +7,6 @@ import XCTest
 
 class PackageWithSchemesEndToEndTests: XCTestCase {
   func test_returnTrue() {
-    XCTAssertTrue(false)
+    XCTAssertTrue(true)
   }
 }

@@ -22,6 +22,9 @@ let package = Package(
       dependencies: ["PackageWithSchemes"]),
     .testTarget(
       name: "PackageWithSchemesEndToEndTests",
+      dependencies: ["PackageWithSchemes"]),
+    .testTarget(
+      name: "PackageWithSchemesIntegrationTests",
       dependencies: ["PackageWithSchemes"])
   ]
 )
